@@ -1,5 +1,5 @@
 package tn.esprit.rh.achat.entities;
-
+//Comment by Fakhfakh Ahmed
 import java.io.Serializable;
 import java.util.Set;
 import javax.persistence.Entity;
