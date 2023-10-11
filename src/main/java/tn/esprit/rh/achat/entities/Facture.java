@@ -1,5 +1,5 @@
 package tn.esprit.rh.achat.entities;
-
+//comment by mAzGallala
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Set;
