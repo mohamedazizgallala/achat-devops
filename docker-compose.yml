@@ -14,7 +14,7 @@ services:
   app-achat:
     depends_on:
       - mysqldb
-    image : seif717/achat:1.0.0
+    image : seif717/achat:1.0
     restart: on-failure
     ports:
       - 8082:8082
