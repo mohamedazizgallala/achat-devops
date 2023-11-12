@@ -5,10 +5,10 @@ services:
     image: mysql:5.7
     restart: unless-stopped
     environment:
-      - MYSQL_ROOT_PASSWORD=test
-      - MYSQL_DATABASE=achat_db
+      MYSQL_ROOT_PASSWORD: 'test'
+      MYSQL_DATABASE: achat_db
     ports:
-      - 3306:3306
+      - 3307:3306
     volumes:
       - db:/var/lib/mysql
   app-achat:
