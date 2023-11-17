@@ -8,14 +8,13 @@ services:
       MYSQL_ROOT_PASSWORD: 'admin'
       MYSQL_DATABASE: achat_db
     ports:
-    - 3307:3306
+      - 3307:3306
     volumes:
-    - db:/var/lib/mysql
+      - db:/var/lib/mysql
   app-achat:
     depends_on:
       - mysqldb
     image: mohamedazizgallala/achat-devops:1.0
-    build: ./
     restart: on-failure
     ports:
       - 8082:8082
